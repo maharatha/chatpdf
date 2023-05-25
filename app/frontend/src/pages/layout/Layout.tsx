@@ -35,8 +35,8 @@ const Layout = () => {
         <div className={styles.layout}>
             <header className={styles.header} role={"banner"}>
                 <div className={styles.headerContainer}>
-                    <Link to="https://dataaipdfchat.azurewebsites.net/" target={"_blank"} className={styles.headerTitleContainer}>
-                        <h3 className={styles.headerTitle}>Chat and Ask</h3>
+                    <Link to="https://ainonprodapp.azurewebsites.net/" target={"_blank"} className={styles.headerTitleContainer}>
+                        <h3 className={styles.headerTitle}>Cast & Crew AI Playground</h3>
                     </Link>
                     <nav>
                         <ul className={styles.headerNavList}>
@@ -108,6 +108,7 @@ const Layout = () => {
                                     Help
                                 </NavLink>
                             </li> */}
+                            {/*
                             <li className={styles.headerNavLeftMargin}>
                                 <a href="https://github.com/akshata29/chatpdf" target={"_blank"} title="Github repository link">
                                     <img
@@ -119,7 +120,7 @@ const Layout = () => {
                                         className={styles.githubLogo}
                                     />
                                 </a>
-                            </li>
+                        </li>*/}
                             <li className={styles.headerNavLeftMargin}>
                                 <SettingsButton className={styles.settingsButton} onClick={() => setIsConfigPanelOpen(!isConfigPanelOpen)} />
                             </li>
